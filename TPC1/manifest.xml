@@ -14,14 +14,19 @@
         </uc>
     </meta>
     <resumo>
-        <p>Primeiro parágrafo</p>
-        <p>Segundo parágrafo</p>
-        <p>Terceiro paragrafo com <url>link</url><texto>url embutido</texto></p>
+        <p>Primeiramente, defina-se o conteúdo HTML inicial, incluindo a estrutura básica da página desde o título, a codificação de caracteres e um estilo CSS para as imagens e descrições.</p>
+        <p>De seguida, inicia-se uma iteração sobre o ficheiro "MapaRuas-materialBase/texto" verificando para cada ficheiro se se trata de um xml.
+        Caso seja, é aberto e lido. As informações relevantes tal como o nome da rua são extraídas. Para cada rua, cria se um ficheiro html "ficheiroCidade". </p>
+        <p>Em cada ficheiro, adiciona-se o nome da rua como cabeçalho, a sua descrição e as casas associadas. Para além disso, são adicionadas as imagens associadas que são extraidas das pastas "imagens" e "atual". 
+        Escreve-se o conteúdo HTML da rua no ficheiro HTML correspondente e finalmente adiciona-se um link de regresso a página principal.</p>
+        <p>Para além disso, a lista de cidade da página principal é ordenada sendo que cada cidade possui um link para o ficheiro HTML correspondente.</p>
+        <p>Concluíndo, escreve-se o conteúdo HTML final no ficheiro "mapa_sorted_link.html" e fecha-se o mesmo. </p>
     </resumo>
 
     <resultados>
-        <resultado> resultado 1</resultado>
-        <resultado> resultado 2</resultado>
+        <resultado> Resultado: Conseguimos visualizar uma primeira página com todas as nossas cidades ordenadas. Ao clicar numa delas somos reencaminhados para uma nova página 
+        onde visualizamos todos os detalhes, desde o nome da rua, as imagens associadas, a descrição e as casas. </resultado>
+        
     </resultados>
 
 </doc>
