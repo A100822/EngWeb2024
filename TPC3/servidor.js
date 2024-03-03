@@ -258,4 +258,4 @@ http.createServer((req, res) => {
 
 }).listen(2702);
 
-console.log("Servidor escutando na porta 2702...");
+console.log("Servidor à escuta na porta 2702...");
