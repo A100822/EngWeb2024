@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc>
+    <meta>
+        <title>TPC4</title>
+        <date>2024-03-09</date>
+        <author>
+            <id>a100822</id>
+            <nome>Maya Gomes</nome>
+        </author>
+        <uc>
+            <sigla>EW2024</sigla>
+            <nome>Engenharia Web</nome>
+        </uc>
+    </meta>
+    <resumo>
+        <p>Criar uma servidor em python e interligar com HTML. Utilizar o w3.css. Utilisar o dataset de compositores musicais fornecido. 
+
+<p> Colocar o dataset no json-server;</p>
+<lista> Rotas importantes: </lista>
+    <item>/compositores</item>
+    <item>/compositores/{id} (parametro que pode variar)</item>
+    <item>/compositores?periodo={periodo}</item>
+    <item>/periodos</item>
+    <item>/periodos/{id}</item>
+
+
+<p>Implementar um serviço com as operações de CRUD sobre compositores e sobre períodos. </p>
+
+<p>Criar um servidor que lê o dataset dos compositores. 
+Devemos também criar um dicionario para os compositoes criando um id para cada um. 
+Assim, devem ser fornecidos os dados do json server e devem ser criadas paginas html para os compositores e periodos.
+Cada ligação deve ser materializada num link que corresponde a uma nova chamada ao servidor. 
+Ao selecionar um compositor ou um periodo deve ser possível visualizar os detalhes do mesmo. 
+De seguida, deve ser possível editar ou apagar um elemento mas também criar um novo. 
+</p>
+
+
+    </resumo>
+
+    <resultados>
+        <resultado> Resultado: 
+        Conseguimos visualizar uma primeira página com a opção de consultar os compositores ou os periodos. Ao escolher uma das opção visualizamos uma lista com os diversos elementos existentes. 
+        Para além disso, temos a opção de consulta, de edição, remoção ou ainda de criação de um novo elemento (CRUD). 
+        </resultado>
+    
+    </resultados>
+
+</doc>
